@@ -1,0 +1,7 @@
+{
+  "database": "dolt",
+  "backend": "dolt",
+  "dolt_mode": "embedded",
+  "dolt_database": "n8n_nodes_markdown_chunker",
+  "project_id": "92060f81-b693-4ade-842e-0cde2506c70a"
+}
