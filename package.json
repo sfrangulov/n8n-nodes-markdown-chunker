@@ -1,0 +1,68 @@
+{
+	"name": "n8n-nodes-markdown-chunker",
+	"version": "0.1.0",
+	"description": "n8n node that splits Markdown into retrieval-ready chunks with heading-aware metadata for RAG and vector stores",
+	"license": "MIT",
+	"homepage": "https://github.com/sfrangulov/n8n-nodes-markdown-chunker",
+	"keywords": [
+		"n8n-community-node-package",
+		"n8n-nodes",
+		"n8n",
+		"markdown",
+		"chunker",
+		"chunking",
+		"text-splitter",
+		"rag",
+		"vector-store",
+		"embeddings"
+	],
+	"author": {
+		"name": "Sergei Frangulov",
+		"email": "sergey.frangulov@gmail.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sfrangulov/n8n-nodes-markdown-chunker.git"
+	},
+	"engines": {
+		"node": ">=20.15"
+	},
+	"scripts": {
+		"build": "n8n-node build",
+		"build:watch": "tsc --watch",
+		"dev": "n8n-node dev",
+		"lint": "n8n-node lint",
+		"lint:fix": "n8n-node lint --fix",
+		"test": "jest",
+		"test:coverage": "jest --coverage",
+		"release": "n8n-node release",
+		"prepublishOnly": "n8n-node prerelease"
+	},
+	"files": [
+		"dist"
+	],
+	"n8n": {
+		"n8nNodesApiVersion": 1,
+		"strict": false,
+		"nodes": [
+			"dist/nodes/MarkdownChunker/MarkdownChunker.node.js"
+		]
+	},
+	"devDependencies": {
+		"@babel/preset-env": "^7.29.5",
+		"@n8n/node-cli": "*",
+		"@types/jest": "^29.5.14",
+		"@types/node": "^25.7.0",
+		"babel-jest": "^30.4.1",
+		"eslint": "9.39.4",
+		"jest": "^29.7.0",
+		"n8n-workflow": "*",
+		"prettier": "3.8.3",
+		"release-it": "20.0.1",
+		"ts-jest": "^29.4.9",
+		"typescript": "5.9.3"
+	},
+	"peerDependencies": {
+		"n8n-workflow": "*"
+	}
+}
