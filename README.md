@@ -1,6 +1,8 @@
 # n8n-nodes-markdown-chunker
 
 [![npm version](https://img.shields.io/npm/v/n8n-nodes-markdown-chunker.svg)](https://www.npmjs.com/package/n8n-nodes-markdown-chunker)
+[![n8n community node](https://img.shields.io/badge/n8n-community%20node-FF6D5A)](https://docs.n8n.io/integrations/community-nodes/)
+[![AI Agent Tool](https://img.shields.io/badge/AI%20Agent-tool%20ready-8A2BE2)](https://docs.n8n.io/advanced-ai/examples/understand-tools/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE.md)
 
 An [n8n](https://n8n.io) community node that splits Markdown into **retrieval-ready chunks** with heading-aware metadata — the missing link between document conversion and your vector store.
@@ -27,6 +29,18 @@ Or with npm in a self-hosted instance:
 ```bash
 npm install n8n-nodes-markdown-chunker
 ```
+
+## Use as an AI Agent tool
+
+The node ships with `usableAsTool: true`, so an **AI Agent** can call it directly — e.g. to chunk a document it just fetched before embedding it.
+
+On **n8n Cloud** and recent self-hosted versions this works out of the box. On older self-hosted instances, enable community-node tool usage:
+
+```bash
+N8N_COMMUNITY_PACKAGES_ALLOW_TOOL_USAGE=true
+```
+
+Then attach **Markdown Chunker** to an AI Agent's *Tool* input.
 
 ## Parameters
 
