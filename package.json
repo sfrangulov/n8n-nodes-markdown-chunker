@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-markdown-chunker",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "n8n node that splits Markdown into retrieval-ready chunks with heading-aware metadata for RAG and vector stores",
 	"license": "MIT",
 	"homepage": "https://github.com/sfrangulov/n8n-nodes-markdown-chunker",
