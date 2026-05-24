@@ -4,6 +4,9 @@
 [![n8n community node](https://img.shields.io/badge/n8n-community%20node-FF6D5A)](https://docs.n8n.io/integrations/community-nodes/)
 [![AI Agent Tool](https://img.shields.io/badge/AI%20Agent-tool%20ready-8A2BE2)](https://docs.n8n.io/advanced-ai/examples/understand-tools/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE.md)
+[![ephemeris momentum](https://ephemeris.tools/badge/sfrangulov/n8n-nodes-markdown-chunker/momentum.svg?theme=auto)](https://ephemeris.tools/u/sfrangulov)
+[![ephemeris sparkline](https://ephemeris.tools/badge/sfrangulov/n8n-nodes-markdown-chunker/sparkline.svg?theme=auto)](https://ephemeris.tools/u/sfrangulov)
+[![ephemeris stars](https://ephemeris.tools/badge/sfrangulov/n8n-nodes-markdown-chunker/stars.svg?theme=auto)](https://ephemeris.tools/u/sfrangulov)
 
 An [n8n](https://n8n.io) community node that splits Markdown into **retrieval-ready chunks** with heading-aware metadata — the missing link between document conversion and your vector store.
 
